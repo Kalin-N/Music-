@@ -611,6 +611,9 @@ fun SettingsView(vm: MusicViewModel) {
             }
             Button(onClick = { vm.scanForMusic(); Toast.makeText(ctx, "Scanning...", Toast.LENGTH_SHORT).show() }, modifier = Modifier.fillMaxWidth(), colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF1E1E1E))) { Text("Scan for Music", color = JungleGreen) }
             Button(onClick = { vm.favoriteSongs.clear(); Toast.makeText(ctx, "Cleared", Toast.LENGTH_SHORT).show() }, modifier = Modifier.fillMaxWidth().padding(top = 8.dp), colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF1E1E1E))) { Text("Clear Favorites", color = Color.White) }
+            
+            HorizontalDivider(color = Color.DarkGray, modifier = Modifier.padding(vertical = 8.dp)); Text("About", color = JungleGreen, fontWeight = FontWeight.Bold)
+            Text("This app was created by me with the help of AI to provide a simple and elegant music listening experience.", color = Color.Gray, fontSize = 14.sp, modifier = Modifier.padding(vertical = 8.dp))
         }
     }
 
