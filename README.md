@@ -1,0 +1,1 @@
+Hello everyone that is my app(music player)! Right no we are in beta versions so if you download it, please text me if you find bugs and send me email on gmail kalin10nedkov@gmail.com! THANK YOU ALL! And have fun listening to music
